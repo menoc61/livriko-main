@@ -5,7 +5,7 @@ import 'package:ride_sharing_user_app/util/images.dart';
 class AppConstants {
   static const String appName = 'Livriko Driver';
   static const String baseUrl = 'https://livriko.fr';
-  static const String polylineMapKey = 'YOUR_MAP_KEY_HERE';
+  static const String polylineMapKey = 'AIzaSyDgNrWUDMjSHSVF9F2L-oUupmMYEunSGCk';
   static const double appVersion = 3.2;   /// Flutter SDK 3.41.9
   static const String configUri = '/api/driver/configuration';
   static const String registration = '/api/driver/auth/registration';

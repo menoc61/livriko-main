@@ -29,7 +29,7 @@
                                                     <label for="manual_login" class="mb-0">
                                                         <h5 class="fs-14 mb-1">
                                                             {{ translate('Manual Login') }}
-                                                             <img src="{{ asset('public/assets/admin-module/img/info-warning-icon.png') }}" class="cursor-pointer"
+                                                             <img src="{{ dynamicAsset('public/assets/admin-module/img/info-warning-icon.png') }}" class="cursor-pointer"
                                                                 data-bs-toggle="tooltip" data-bs-placement="right"
                                                                 data-bs-title="{{ translate('Enter the amount you want to refund to the customer') }}">
                                                         </h5>

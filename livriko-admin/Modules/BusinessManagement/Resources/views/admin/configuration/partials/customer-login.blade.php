@@ -45,7 +45,7 @@
                                         <h5 class="fs-14 mb-1">
                                             {{ translate('OTP Login') }}
                                             @if(!$isOtpEnabled)
-                                                <img src="{{ asset('public/assets/admin-module/img/info-warning-icon.png') }}"
+                                                <img src="{{ dynamicAsset('public/assets/admin-module/img/info-warning-icon.png') }}"
                                                      class="cursor-pointer"
                                                      data-bs-toggle="tooltip"
                                                      data-bs-placement="right"

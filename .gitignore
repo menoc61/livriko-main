@@ -1,0 +1,48 @@
+# Livriko monorepo — admin panel + user app + driver app (DriveMond 3.2 base)
+
+## Secrets — never commit real credentials
+livriko-admin/.env
+**/.env
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+firebase-debug.log
+/root/.livriko_db_creds
+
+## Backups
+*.bak_*
+*.orig
+*~
+
+## Laravel (livriko-admin)
+livriko-admin/vendor/
+livriko-admin/node_modules/
+livriko-admin/storage/logs/*.log
+livriko-admin/storage/framework/cache/data/*
+livriko-admin/storage/framework/sessions/*
+livriko-admin/storage/framework/views/*
+livriko-admin/bootstrap/cache/*.php
+livriko-admin/public/hot
+livriko-admin/public/storage
+livriko-admin/.phpunit.result.cache
+livriko-admin/Homestead*
+
+## Flutter (both apps)
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/Flutter/ephemeral/
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/.idea/
+**/.vscode/*
+
+## OS
+.DS_Store
+Thumbs.db

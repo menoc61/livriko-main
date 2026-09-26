@@ -5,6 +5,7 @@ class Images {
   static const String forgotPasswordLogo = 'assets/image/forgot_password.png';
   static const String saudi = 'assets/image/saudi.png';
   static const String unitedKingdom = 'assets/image/united_kingdom.png';
+  static const String french = 'assets/image/french.png';
   static const String placeholder = 'assets/image/placeholder.jpg';
   static const String personPlaceholder = 'assets/image/person_placeholder.png';
   static const String lock = 'assets/image/lock.png';
